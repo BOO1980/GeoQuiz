@@ -29,6 +29,12 @@ public class QuizActivity extends AppCompatActivity {
             }
         });
         mFalseButton = (Button) mFalseButton;
+        mFalseButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //does nothing yet, but soon
+            }
+        });
     }
 
     @Override
